@@ -14,7 +14,6 @@ const firmSchema = new mongoose.Schema({
     category: {
         type: [
             {
-
                 type: String,
                 enum:['veg', 'non-veg']
             }
